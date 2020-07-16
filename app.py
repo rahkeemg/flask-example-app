@@ -12,9 +12,9 @@ def readme():
     return "<h1>This will be the README page</h1>"
 
 
-@app.route("/album")
-def album():
-    return render_template("album.html")
+@app.route("/info")
+def info():
+    return render_template("info.html")
 
 
 if __name__ == '__main__':
