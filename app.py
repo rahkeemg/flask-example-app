@@ -6,12 +6,6 @@ app = Flask(__name__)
 def home():
     return render_template("home.html")
 
-
-@app.route("/README")
-def readme():
-    return "<h1>This will be the README page</h1>"
-
-
 @app.route("/info")
 def info():
     return render_template("info.html")
