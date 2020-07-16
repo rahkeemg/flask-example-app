@@ -7,9 +7,14 @@ def home():
     return render_template("home.html")
 
 
-@app.route("/readme")
+@app.route("/README")
 def readme():
     return "<h1>This will be the README page</h1>"
+
+
+@app.route("/album")
+def album():
+    return render_template("album.html")
 
 
 if __name__ == '__main__':
