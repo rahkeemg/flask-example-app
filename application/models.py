@@ -1,3 +1,3 @@
 """
-    Models file. Need to fill out
+    Models file. Fill out as needed
 """

@@ -1,3 +1,3 @@
 """
-    Configuration file. Need to fill out. 
+    Configuration file. Fill out as needed
 """
